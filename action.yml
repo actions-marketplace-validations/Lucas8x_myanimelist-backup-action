@@ -1,0 +1,22 @@
+name: 'Backup MyAnimeList Action'
+description: 'Save your MyAnimeList to a file'
+author: 'lucas8x'
+
+branding:
+  icon: 'archive'
+  color: 'blue'
+
+inputs:
+  mal_username:
+    description: 'Your MyAnimeList username'
+    required: true
+  mal_list_type:
+    description: 'Which list you want to save'
+    default: 'both'
+  output_dir:
+    description: 'Output directory'
+    default: .
+
+runs:
+  using: node20
+  main: dist/index.js

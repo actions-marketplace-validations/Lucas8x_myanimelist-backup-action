@@ -1,0 +1,45 @@
+{
+  "name": "myanimelist-backup-action",
+  "version": "1.0.0",
+  "description": "Github action to save your MyAnimeList",
+  "main": "dist/index.js",
+  "author": "Lucas8x",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --env-file=.env --import tsx src/index.ts",
+    "build": "ncc build src/index.ts -m -o dist"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@octokit/action": "^6.0.7",
+    "dayjs": "^1.11.10"
+  },
+  "devDependencies": {
+    "@octokit/openapi-types": "^19.1.0",
+    "@types/node": "^20.11.17",
+    "@vercel/ncc": "^0.38.1",
+    "prettier": "^3.2.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas8x/myanimelist-backup-action.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lucas8x/myanimelist-backup-action/issues"
+  },
+  "homepage": "https://github.com/Lucas8x/pong-game-multiplayer",
+  "keywords": [
+    "MyAnimeList",
+    "GitHub",
+    "Actions",
+    "JavaScript",
+    "Backup",
+    "JSON",
+    "TXT"
+  ]
+}
