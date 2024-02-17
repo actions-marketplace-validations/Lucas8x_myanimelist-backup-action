@@ -1,5 +1,5 @@
-name: 'Backup MyAnimeList Action'
-description: 'Save your MyAnimeList to a file'
+name: Backup MyAnimeList Action
+description: Github action to save your MyAnimeList in the repository
 author: 'lucas8x'
 
 branding:

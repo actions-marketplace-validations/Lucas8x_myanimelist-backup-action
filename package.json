@@ -1,7 +1,7 @@
 {
   "name": "myanimelist-backup-action",
   "version": "1.0.0",
-  "description": "Github action to save your MyAnimeList",
+  "description": "Github action to save your MyAnimeList in the repository",
   "main": "dist/index.js",
   "author": "Lucas8x",
   "license": "MIT",
